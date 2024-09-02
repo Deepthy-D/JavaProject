@@ -1,0 +1,14 @@
+package Day17_31_08;
+
+import java.io.*;
+
+
+public class WritetoFile {
+public static void main(String [] args) {
+	FileOutputStream fos = new FileOutputStream("./xyz.txt");
+		String msg="Hello, How are you";
+	byte[] arr=msg.getBytes();
+	fos.write(arr);
+	fos.close();
+}
+}

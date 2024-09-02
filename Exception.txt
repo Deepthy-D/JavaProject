@@ -1,0 +1,25 @@
+package Day17_31_08;
+
+public class Exception_Eg1 {
+		public static void main(String[] args)
+		{ 
+			try {
+				String str ="abcd";
+				String substr=str.substring(2,9);
+				int arr[]= {1,2,3,4,5,6};
+			for(int i=0;i<=arr.length;i++)
+			{
+				
+				System.out.println(arr[i]);
+			
+			}//ArrayIndexOutOfBoundsException
+				//Stms1;
+			met();
+			//Stms1;
+			}
+
+		private static void met() {
+			// TODO Auto-generated method stub
+			
+		}
+		}
